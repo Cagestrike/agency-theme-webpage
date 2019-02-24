@@ -92,6 +92,13 @@ section:nth-child(even) {
     padding: 16px 64px;
 }
 
+.portfolio-item {
+    display: block;
+    background-color: white;
+    width: 90%;
+    margin: 16px auto;
+}
+
 @media screen and (min-width: 768px) {
     #services .container, #portfolio .container{
         flex-direction: row;
@@ -104,10 +111,7 @@ section:nth-child(even) {
     }
 }
 
-.portfolio-item {
-    background-color: white;
-    margin: 16px;
-}
+
 
 .portfolio-thumbnail {
     position: relative;
